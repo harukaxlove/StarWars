@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    transition: 1s;
+
+    font-family: Montserrat, sans-serif;
+
+}
+
+ 
+.container{
+    margin: 0 5rem 0 5rem;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+
+nav{
+    margin-left: 5rem;
+}
+
+nav ul{
+    display: flex;
+    padding-left: 10px;
+}
+
+nav ul li{
+    font-size: 1.2rem;
+    width: 100px;
+}
+
+.about-film{
+    width: 600px;
+}
+
+.about-film h1{
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%; /* 40px */
+}
+
+.episode{
+    margin-top: 2rem;
+}
+
+.about-film p{
+    margin-top: 2rem;
+    color: #AFAFAF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+
+.premiere-info p:nth-child(1){
+    margin-top: 3rem;
+    color: #B02000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+
+.premiere-info p{
+    margin-top: 1rem;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+}
+
+.cssbuttons-io-button {
+    margin-top: 2rem;
+    background: linear-gradient(90deg, #e72b00, #B02000);
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #B02000;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    cursor: pointer;
+  }
+  
+  .cssbuttons-io-button .icon {
+    background: rgb(255, 255, 255);
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #8e1b01;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+  .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+  }
+  
+  .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #7b52b9;
+  }
+  
+  .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+  }
+  
+  .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+  }
+
+.previous-ep{
+    margin-top: 2rem;
+}
+
+.card-new-hope{
+    margin-top: 2rem;
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.459) 0%, rgba(0, 0, 0, 0.459) 100%), url(./img/new.jpeg), rgba(213, 213, 213, 0) 50% / cover no-repeat;
+    box-shadow: 0px 10px 26px 0px rgba(0, 0, 0, 0.25);    
+    transition: 1s;
+    padding: 20px;
+}
+
+.card-new-hope:not(:first-child){
+    margin-left: 3rem;
+
+}
+
+.card-new-hope:nth-child(2){
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.459) 0%, rgba(0, 0, 0, 0.459) 100%), url(./img/60d01a63c9b04038bac4b11b0f8cd14b.jpeg), rgba(213, 213, 213, 0) 50% / cover no-repeat;
+}
+
+.card-new-hope:nth-child(2):hover{
+    background:  linear-gradient(90deg, rgba(28, 28, 28, 0.206) 0%, rgba(37, 35, 35, 0.309) 100%), url(./img/60d01a63c9b04038bac4b11b0f8cd14b.jpeg), rgba(213, 213, 213, 0) 50% / cover no-repeat;
+}
+
+.card-new-hope:nth-child(3){
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.459) 0%, rgba(0, 0, 0, 0.459) 100%), url(./img/3.jpeg), rgba(213, 213, 213, 0) 50% / cover no-repeat;
+}
+
+.card-new-hope:nth-child(3):hover{
+    background:  linear-gradient(90deg, rgba(28, 28, 28, 0.206) 0%, rgba(37, 35, 35, 0.309) 100%), url(./img/3.jpeg), rgba(213, 213, 213, 0) 50% / cover no-repeat;
+}
+
+.card-new-hope:nth-child(4){
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.459) 0%, rgba(0, 0, 0, 0.459) 100%), url(./img/4.jpeg), rgba(213, 213, 213, 0) 50% / cover no-repeat;
+}
+
+.card-new-hope:nth-child(4):hover{
+    background: linear-gradient(90deg, rgba(28, 28, 28, 0.206) 0%, rgba(37, 35, 35, 0.309) 100%), url(./img/4.jpeg), rgba(213, 213, 213, 0) 50% / cover no-repeat;
+}
+
+.card-description{
+    opacity: 0;
+    text-shadow: rgba(62,66,66,0.52) 0px 5px 8px;
+}
+
+.card-description p{
+    margin-top: 1.5rem;
+}  
+
+.card-title{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+
+.card-description h2{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%; /* 27px */
+}
+
+.card-rating{
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 10px;
+    opacity: 0;
+}
+
+.card-rating p{
+    color: #FFF;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 19.5px */
+}
+
+.stars{
+    padding-left: 10px;
+}
+
+.card-new-hope:hover{
+    background: linear-gradient(90deg, rgba(28, 28, 28, 0.206) 0%, rgba(37, 35, 35, 0.309) 100%), url(./img/new.jpeg), rgba(213, 213, 213, 0) 50% / cover no-repeat;
+    transform: scaleX(1.05);
+    cursor: pointer;
+    transition: 1s;
+    .card-rating{
+        opacity: 1;
+    }
+    .card-description{
+        opacity: 1;
+    }
+    .card-title{
+        font-size: 18;
+    }  
+}
+
+
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
